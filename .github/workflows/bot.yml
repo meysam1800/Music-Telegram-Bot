@@ -29,5 +29,6 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           HELLBOT_SESSION: ${{ secrets.HELLBOT_SESSION }}
           OWNER_ID: ${{ secrets.OWNER_ID }}
+          LOGGER_ID: ${{ secrets.LOGGER_ID }}
         run: |
           python -m Music
